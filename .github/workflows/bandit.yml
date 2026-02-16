@@ -1,9 +1,7 @@
 name: Bandit scan
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  push: 
+    branches: main
 
 jobs:
   bandit:
