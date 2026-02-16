@@ -7,4 +7,4 @@
 git clone https://github.com/ayobamiblackforce-100/project-2.git && bash ./project-2/run-app.sh
 ```
 
-### Access the app on your browser using http://159.203.9.86:8501
+### Access the app on your browser using http://serverIP:8501
