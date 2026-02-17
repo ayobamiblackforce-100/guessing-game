@@ -33,3 +33,13 @@ jobs:
           # path to a .bandit file that supplies command line arguments
           # ini_path: # optional, default is DEFAULT
 
+  dockerize:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Docker
+      uses: docker/setup-docker-action@v4.7.0
+
+      # make dockerfile and also build
